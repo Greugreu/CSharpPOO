@@ -91,5 +91,7 @@ namespace HelloPOO3
                 { get; set; }
             }
          */
+        
+        // END; NEXT INHERITANCE IN HELLOPOO4
     }
 }
