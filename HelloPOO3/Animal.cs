@@ -7,12 +7,18 @@ namespace HelloPOO3
         // Class Constructors
         // Called when created, does the same things than PHP.
 
+        public string species;
         public string race;
+        public string fur;
+        public int age;
         
         //Constructor creation
-        public Animal(string raceType)
+        public Animal(string animalSpecies, string animalRace, string furColor, int animalAge )
         {
-            race = raceType; // Set the inital value for type
+            species = animalSpecies; // Set the inital value for type
+            race = animalRace;
+            fur = furColor;
+            age = animalAge;
         }
         
         // The constructor name must match the class name, it cannot have a return type (like void or int)
@@ -34,6 +40,7 @@ namespace HelloPOO3
             }
             
             We changed for the above.
+            Now we'll add more parameters to create a cat.
          */
     }
 }
