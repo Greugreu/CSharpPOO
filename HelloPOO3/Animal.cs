@@ -9,8 +9,9 @@ namespace HelloPOO3
 
         public string species;
         public string race;
-        public string fur;
+        private string fur;
         public int age;
+        private int legs;
         
         //Constructor creation
         public Animal(string animalSpecies, string animalRace, string furColor, int animalAge )
@@ -50,6 +51,27 @@ namespace HelloPOO3
             private       only accessible within the same class
             protected     only accessible within same class or by inheritance
             internal      only accessible within it's own assembly, but not from another
+         */
+        
+        // PROPERTIES AND ENCAPSULATION
+        /*
+            Encapsulation : It's to make sure that sensitive data is hidden from the user. To achieve it, declare private fields/variables
+            provide public getters and setters through properties to access and update private fields.
+            
+            Properties : A property is a combinaison of variable and method and has a get and set method. 
+            
+            class Person
+            {
+                private string name;
+                
+                public string Name
+                {
+                    get { return name; }
+                    set { name = value; } 
+                }
+            }
+            
+            for more clarity, I created a new field.
          */
     }
 }
