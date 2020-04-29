@@ -42,5 +42,14 @@ namespace HelloPOO3
             We changed for the above.
             Now we'll add more parameters to create a cat.
          */
+        
+        // ACCESS MODIFIERS
+        /*
+            Classes properties and fields works the same as PHP, we can set access modifiers to regulate access.
+            public        accessible for all
+            private       only accessible within the same class
+            protected     only accessible within same class or by inheritance
+            internal      only accessible within it's own assembly, but not from another
+         */
     }
 }
