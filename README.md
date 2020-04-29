@@ -8,7 +8,9 @@ I commented my code if any wants to understand
 
 * HelloPOO : Basic class method
 * HelloPOO2 : Class creation
-* HelloPOO3 : Class constructor, properties
+* HelloPOO3 : Class constructor, properties, encapsulation
+* HelloPOO4 : Inheritance, polymorphism, abstract classes
+* TODO HelloPOO5 : Interfaces
 
 Code is in CSharpPOO/HelloPOO/Program.cs
 
