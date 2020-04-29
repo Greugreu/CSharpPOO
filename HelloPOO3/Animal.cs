@@ -9,7 +9,7 @@ namespace HelloPOO3
 
         public string species;
         public string race;
-        private string fur;
+        public string fur;
         public int age;
         private int legs;
         
@@ -21,7 +21,13 @@ namespace HelloPOO3
             fur = furColor;
             age = animalAge;
         }
-        
+
+        public int Legs
+        {
+            get => legs;
+            set => legs = value;
+        }
+
         // The constructor name must match the class name, it cannot have a return type (like void or int)
         
         // CONSTRUCTOR PARAMETERS
@@ -58,7 +64,7 @@ namespace HelloPOO3
             Encapsulation : It's to make sure that sensitive data is hidden from the user. To achieve it, declare private fields/variables
             provide public getters and setters through properties to access and update private fields.
             
-            Properties : A property is a combinaison of variable and method and has a get and set method. 
+            Properties : A property is a combination of variable and method and has a get and set method. 
             
             class Person
             {
@@ -71,7 +77,19 @@ namespace HelloPOO3
                 }
             }
             
-            for more clarity, I created a new field.
+            for more clarity, I created a new field "Legs". As PHP, "Legs" field is set as private, can only be accessed by Legs getter
+            and modified by "Legs" setter.
+         */
+        
+        // AUTOMATIC PROPERTIES
+        /*
+            C# provides a way to quickly create automatic properties without defining a field before.
+            
+            class ClassName
+            {
+                public string Var
+                { get; set; }
+            }
          */
     }
 }
